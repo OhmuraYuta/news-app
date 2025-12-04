@@ -1,0 +1,7 @@
+{
+  "name": "aituber-kit-devcontainer",
+  "dockerComposeFile": "./compose.yml",
+  "service": "aituber-kit",
+  "workspaceFolder": "/workdir",
+  "shutdownAction": "stopCompose"
+}

@@ -4,3 +4,13 @@ services:
     ports:
       - "50021:50021"
     restart: always
+
+  aituber-kit:
+    build: .
+    ports:
+      - "3000:3000"
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./:/workdir
